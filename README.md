@@ -39,10 +39,6 @@ and outputs together.
   - `minimum_nights`, `number_of_reviews`
   - `last_review`, `reviews_per_month`
   - `availability_365`
-
-> Place the dataset CSV (e.g. `Airbnb_data.csv`) in the same folder as the notebook,
-> or update the path in the notebook accordingly.
-
 ---
 
 ## Data Cleaning & Preparation
@@ -59,7 +55,7 @@ These steps ensure the dataset is suitable for both EDA and statistical testing.
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 The notebook includes visual and descriptive analysis such as:
 
@@ -75,7 +71,7 @@ Plots are created using **Matplotlib / Seaborn** (e.g., boxplots, bar charts).
 
 ---
 
-## 📐 Statistical Analysis
+## Statistical Analysis
 
 The project focuses on three main statistical questions:
 
@@ -102,7 +98,7 @@ For each hypothesis, the notebook:
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Language:** Python  
 - **Environment:** Jupyter Notebook (`.ipynb`)  
@@ -112,13 +108,4 @@ For each hypothesis, the notebook:
   - `matplotlib`, `seaborn` – visualizations
   - `scipy.stats` – statistical tests (ANOVA, t-test, chi-square)
 
----
-
-## ▶️ How to Run This Project
-
-1. **Clone or download** this repository.
-2. Make sure you have **Python 3.x** installed.
-3. Install the required libraries (in a virtual env if you prefer):
-
-   ```bash
-   pip install pandas numpy matplotlib seaborn scipy jupyter
+---xxx---
